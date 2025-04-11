@@ -1,10 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744370279
+::res://::1744382621
 export_presets.cfg::TextFile/TextFile::-1::1742217174::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7635829805620109155::1741094950::1741094956::1::::<><><>0<>0<>c62c408f42da113dbbea38655dc63a1d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.gd::GDScript/GDScript::7398084366196345118::1741098733::0::1::::<>Node2D<><>0<>0<><>::
-main.tscn::PackedScene::5057784388472590347::1744370280::0::1::::<><><>0<>0<><>::uid://ddnxmse6xxtf7::::res://main.gd
-window_extended.gd::GDScript/GDScript::60085259760667758::1742061036::0::1::::<>WindowExtended<><>0<>0<><>::
-window_extended.tscn::PackedScene::8062473682274965533::1744370280::0::1::::<><><>0<>0<><>::uid://4duils4hr6e::::res://window_extended.gd<>uid://dg14abqxxv348::::res://icon.svg
-::res://bin/::1744370276
-WindowExtended.gdextension::GDExtension/GDExtension::1283820370023349803::1741100595::0::1::::<><><>0<>0<><>::
+main.gd::GDScript::7398084366196345118::1744382592::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::5057784388472590347::1744382616::0::1::::<><><>0<>0<><>::uid://ddnxmse6xxtf7::::res://main.gd<>uid://dg14abqxxv348::::res://icon.svg
+README.md::TextFile/TextFile::-1::1744372232::0::1::::<><><>0<>0<><>::
+::res://bin/::1744382617
+window_utils.gdextension::GDExtension/GDExtension::4725375422319374585::1744382224::0::1::::<><><>0<>0<><>::

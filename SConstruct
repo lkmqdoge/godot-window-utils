@@ -8,7 +8,7 @@ sources = Glob("src/*.cpp")
 
 
 library = env.SharedLibrary(
-    "game/bin/window_utls{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+    "game/bin/window_utils{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
     source=sources,
 )
 

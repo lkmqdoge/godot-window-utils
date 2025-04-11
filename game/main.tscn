@@ -1,6 +1,39 @@
-[gd_scene load_steps=2 format=3 uid="uid://ceca78h83fmat"]
+[gd_scene load_steps=3 format=3 uid="uid://ceca78h83fmat"]
 
 [ext_resource type="Script" uid="uid://ddnxmse6xxtf7" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://dg14abqxxv348" path="res://icon.svg" id="2_0xm2m"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_ig7tw")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(593, 337)
+texture = ExtResource("2_0xm2m")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ButtonSet" type="Button" parent="CanvasLayer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Set
+"
+
+[node name="ButtonClear" type="Button" parent="CanvasLayer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Clear "
+
+[node name="ButtonTSHide" type="Button" parent="CanvasLayer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Hide from taskbar"
+
+[node name="ButtonTSShow" type="Button" parent="CanvasLayer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Show in taskbar
+"

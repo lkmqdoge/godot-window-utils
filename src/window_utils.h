@@ -1,7 +1,9 @@
 #ifndef WINDOW_UTILS_H
 #define WINDOW_UTILS_H
 
+#include <godot_cpp/classes/node.hpp>
 #include <godot_cpp/classes/window.hpp>
+#include <godot_cpp/classes/object.hpp>
 
 namespace godot {
 
@@ -14,8 +16,10 @@ public:
 	WindowUtils();
 	~WindowUtils();
 
-	static void set_layered(Window);
-	static bool get_layered(Window);
+	static void set_transparent(int64_t);
+	static void clear_transparent(int64_t);
+	static void taskbar_hide(int64_t);
+	static void taskbar_show(int64_t);
 };
 
 }
