@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dm4r07yy0ng10"]
+
+[ext_resource type="Script" uid="uid://4duils4hr6e" path="res://window_extended.gd" id="1_q3djt"]
+[ext_resource type="Texture2D" uid="uid://dg14abqxxv348" path="res://icon.svg" id="2_nrcq2"]
+
+[node name="WindowExtended" type="WindowExtended"]
+is_layered = true
+transparent_bg = true
+initial_position = 1
+size = Vector2i(500, 500)
+borderless = true
+transparent = true
+script = ExtResource("1_q3djt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(290, 231)
+texture = ExtResource("2_nrcq2")

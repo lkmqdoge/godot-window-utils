@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1744370169
+export_presets.cfg::TextFile::-1::1742217174::0::1::::<><>::
+icon.svg::CompressedTexture2D::7635829805620109155::1741094950::1741094956::1::::<><>::
+main.gd::GDScript::-1::1741098733::0::1::::<>Node2D<>::
+main.tscn::PackedScene::5057784388472590347::1742061179::0::1::::<><>::uid://ddnxmse6xxtf7::::res://main.gd
+window_extended.gd::GDScript::-1::1742061036::0::1::::<>WindowExtended<>::
+window_extended.tscn::PackedScene::8062473682274965533::1742064468::0::1::::<><>::uid://4duils4hr6e::::res://window_extended.gd<>uid://dg14abqxxv348::::res://icon.svg
+::res://bin/::1742217215
+WindowExtended.gdextension::GDExtension::-1::1741100595::0::1::::<><>::
