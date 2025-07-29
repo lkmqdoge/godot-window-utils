@@ -42,16 +42,16 @@ void WindowUtils::taskbar_hide(int64_t hwnd){
 	HWND hWnd = (HWND)(LONG_PTR)hwnd;
 	LONG style = GetWindowLong(hWnd, GWL_EXSTYLE);
 	style &= ~(WS_EX_APPWINDOW);
-	ShowWindow(hWnd, SW_HIDE);
+	// ShowWindow(hWnd, SW_HIDE);
 	SetWindowLong(hWnd, GWL_EXSTYLE, style | WS_EX_TOOLWINDOW);
-	ShowWindow(hWnd, SW_SHOW);
+	// ShowWindow(hWnd, SW_SHOW);
 }
 
 void WindowUtils::taskbar_show(int64_t hwnd){
 	if (!hwnd) return;
 	HWND hWnd = (HWND)(LONG_PTR)hwnd;
 	LONG style = GetWindowLong(hWnd, GWL_EXSTYLE);
-	ShowWindow(hWnd, SW_HIDE);
+	// ShowWindow(hWnd, SW_HIDE);
 	SetWindowLong(hWnd, GWL_EXSTYLE, style & ~WS_EX_TOOLWINDOW);
-	ShowWindow(hWnd, SW_SHOW);
+	// ShowWindow(hWnd, SW_SHOW);
 }

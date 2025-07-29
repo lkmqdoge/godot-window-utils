@@ -1,0 +1,17 @@
+project/addons/window-utils/bin/
+*.zip
+project/.import/
+project/.godot/
+.scons-cache/
+.cache
+.os
+.obj
+.o
+.sconf_temp
+.sconsign.dblite
+*.pyc
+.vscode/
+.vs/
+
+extension_api.json
+compile_commands.json

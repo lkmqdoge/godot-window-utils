@@ -8,7 +8,7 @@
 namespace godot {
 
 class WindowUtils : public Object {
-	GDCLASS(WindowUtils, Object)
+	GDCLASS(WindowUtils, Object);
 protected:
 	static void _bind_methods();
 
